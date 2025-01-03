@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login-container.css">
+    <link rel="stylesheet" href="./css/form-container.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/form-title.css">
+    <link rel="stylesheet" href="./css/form-social.css">
+    <link rel="stylesheet" href="./css/social-icon.css">
+    <link rel="stylesheet" href="./css/form-input-container.css">
+    <link rel="stylesheet" href="./css/form-input.css">
+    <link rel="stylesheet" href="./css/form-button.css">
+    <link rel="stylesheet" href="./css/overlay-container.css">
+    <link rel="stylesheet" href="./css/overlay.css">
+    <link rel="stylesheet" href="./css/mobile-text.css">
+
+    <script src="./js/login.js" defer></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <main>
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-title">Login</h2>
+                    <div class="form-social">
+                        <a href="https://www.instagram.com/coding.eve/" class="social-icon" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/coding.eve/" class="social-icon" target="blank">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/evelin-matos-69a69225b/" class="social-icon" target="blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <p class="form-text">ou entre com seu email</p>
+                    <div class="form-input-container">
+                        <input type="email" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Senha">
+                    </div>
+                    <a href="#" class="form-link">Esqueci minha senha</a>
+                    <button type="button" class="form-button">Entrar</button>
+                    <p class="mobile-text">
+                        Não tem conta?
+                        <a href="#" id="open-register-mobile">Registre-se</a>
+                    </p>
+                </form>
+                <form class="form form-register">
+                    <h2 class="form-title">Criar Conta</h2>
+                    <div class="form-social">
+                        <a href="https://www.instagram.com/coding.eve/" class="social-icon" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/coding.eve/" class="social-icon" target="blank">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/evelin-matos-69a69225b/" class="social-icon" target="blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <p class="form-text">ou cadastre seu email</p>
+                    <div class="form-input-container">
+                        <input type="text" class="form-input" placeholder="Nome">
+                        <input type="email" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Senha">
+                    </div>
+                    <button type="button" class="form-button">Cadastrar</button>
+                    <p class="mobile-text">
+                        Já tem conta?
+                        <a href="#" id="open-login-mobile">Login</a>
+                    </p>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Já tem conta?</h2>
+                    <p class="form-text">Fique sempre conectado<br>
+                        Faça seu login com email e senha</p>
+                    <button class="form-button form-button-light" id="open-login">Entrar</button>
+                </div>
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">É Novo Aqui?!</h2>
+                    <p class="form-text">Cadastre-se e esteja sempre on-line</p>
+                    <button class="form-button form-button-light" id="open-register">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

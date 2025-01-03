@@ -1,0 +1,8 @@
+.form-title{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.form-title-light{
+    color: var(--text-color-light);
+}
